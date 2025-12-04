@@ -1,0 +1,1202 @@
+{
+  "last_updated": "2025-12-04T01:38:30.876087",
+  "series": {
+    "The Beginning After the End": {
+      "owned_max": 11.0,
+      "next_book": null
+    },
+    "He Who Fights with Monsters": {
+      "owned_max": 9.0,
+      "next_book": {
+        "asin": "B0DJHKNG2B",
+        "title": "He Who Fights with Monsters 10",
+        "sequence": 10.0,
+        "cover_url": ""
+      }
+    },
+    "Reborn as a Demonic Tree": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B0D7XTXVWY",
+        "title": "Reborn as a Demonic Tree 4",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/6124v+AW+HL._SL500_.jpg"
+      }
+    },
+    "Instrument of Omens": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Beastborne": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0D2JHZ9XK",
+        "title": "Voracious",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51hRb3sUrTL._SL500_.jpg"
+      }
+    },
+    "The Inheritance Cycle": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0BXBJCZXJ",
+        "title": "Murtagh",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51zWyo6LeVL._SL500_.jpg"
+      }
+    },
+    "Good Intentions": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0141GSJIS",
+        "title": "Natural Consequences",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51F38doOqIL._SL500_.jpg"
+      }
+    },
+    "Mark of the Fool": {
+      "owned_max": 9.0,
+      "next_book": null
+    },
+    "RE: Monarch": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Return of the Runebound Professor": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B0D5KN58GZ",
+        "title": "Return of the Runebound Professor 3",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51eC8+aaI5L._SL500_.jpg"
+      }
+    },
+    "Supers: Ex Heroes Series": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Lord of the Rings": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1705047580",
+        "title": "The Two Towers",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51EgIMxu00L._SL500_.jpg"
+      }
+    },
+    "Chaos Seeds": {
+      "owned_max": 8.0,
+      "next_book": null
+    },
+    "The Path of Ascension": {
+      "owned_max": 7.0,
+      "next_book": {
+        "asin": "B0DSCJ66N4",
+        "title": "The Path of Ascension 8",
+        "sequence": 8.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51rc0QNLZrL._SL500_.jpg"
+      }
+    },
+    "The Primal Hunter": {
+      "owned_max": 12.0,
+      "next_book": null
+    },
+    "Art of the Adept": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "World Keeper Series": {
+      "owned_max": 12.0,
+      "next_book": {
+        "asin": "B0F68KTN8G",
+        "title": "Cosmic Crusades",
+        "sequence": 13.0,
+        "cover_url": "https://m.media-amazon.com/images/I/41onTlYdruL._SL500_.jpg"
+      }
+    },
+    "The Shattered Reigns Series": {
+      "owned_max": 2.0,
+      "next_book": null
+    },
+    "Grim Reaper": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B00XQS0AS0",
+        "title": "Secondhand Souls",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51z-Y5Z30zL._SL500_.jpg"
+      }
+    },
+    "Heartstrikers": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "A Snake's Life": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Beyonders": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "The Last Magus": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0B4B7XNR4",
+        "title": "Outlaw Magic",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51Oatfn8LtL._SL500_.jpg"
+      }
+    },
+    "Vigiles Urbani Chronicles": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B07KQKHN9B",
+        "title": "Shades of Fire & Ash",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51z8Y7FbmFL._SL500_.jpg"
+      }
+    },
+    "Main Character Hides His Strength": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0DN2QPCB9",
+        "title": "Dungeons of the Gods",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51odHitpreL._SL500_.jpg"
+      }
+    },
+    "Adventurers Wanted": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "Alien: The Audible Original Dramas": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B06XP18SFZ",
+        "title": "Alien: River of Pain",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51xAQ8+EokL._SL500_.jpg"
+      }
+    },
+    "Murderbot Diaries": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07FF9TJ2K",
+        "title": "Exit Strategy",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51ou6ytaM7L._SL500_.jpg"
+      }
+    },
+    "All the Skills": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "Bobiverse": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "Play to Live": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B016DRCHHW",
+        "title": "The Clan",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51lKBQTscZL._SL500_.jpg"
+      }
+    },
+    "Reemergence Series": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07HZ2ZTNH",
+        "title": "Tesser: A Father Enraged",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/514jZ9K42IL._SL500_.jpg"
+      }
+    },
+    "The Technomancer Novels": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Another Stupid Trilogy ": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Artemis Fowl": {
+      "owned_max": 8.0,
+      "next_book": null
+    },
+    "Songs of Chaos": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Dragonrider Chronicles": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Last Life": {
+      "owned_max": 6.0,
+      "next_book": {
+        "asin": "B0F44VY3XW",
+        "title": "The Law of Power",
+        "sequence": 7.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51dyb9EdXaL._SL500_.jpg"
+      }
+    },
+    "Michael Vey": {
+      "owned_max": 8.0,
+      "next_book": {
+        "asin": "B0BW1L6T7W",
+        "title": "Michael Vey 9",
+        "sequence": 9.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51Qni6H0ZhL._SL500_.jpg"
+      }
+    },
+    "Iron Druid Chronicles": {
+      "owned_max": 9.0,
+      "next_book": {
+        "asin": "B07M9TLZC1",
+        "title": "Death & Honey",
+        "sequence": 9.5,
+        "cover_url": "https://m.media-amazon.com/images/I/51wjvibaJyL._SL500_.jpg"
+      }
+    },
+    "The Demon Accords": {
+      "owned_max": 21.0,
+      "next_book": null
+    },
+    "Cradle": {
+      "owned_max": 12.0,
+      "next_book": null
+    },
+    "My Best Friend is an Eldritch Horror": {
+      "owned_max": 6.0,
+      "next_book": null
+    },
+    "The Witcher": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1549102583",
+        "title": "The Time of Contempt: Booktrack Edition",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61a7h5IcNjL._SL500_.jpg"
+      }
+    },
+    "World 99 Series": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Blue Wolf series": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B08KCXMKYW",
+        "title": "Blue Blood",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51hfLC1yJ4L._SL500_.jpg"
+      }
+    },
+    "Dungeon Crawler Carl": {
+      "owned_max": 7.0,
+      "next_book": {
+        "asin": "B0FXY6DVJS",
+        "title": "A Parade of Horribles",
+        "sequence": 8.0,
+        "cover_url": "https://m.media-amazon.com/images/I/41MJKcqupNL._SL500_.jpg"
+      }
+    },
+    "The Wings of War": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07D929MWH",
+        "title": "As Iron Falls",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51L97byLW9L._SL500_.jpg"
+      }
+    },
+    "The Traveler's Gate Trilogy": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Dragon Sorcerer": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B0DK4183Q5",
+        "title": "Bite Down",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51Snm9KEF0L._SL500_.jpg"
+      }
+    },
+    "Welcome to the Multiverse": {
+      "owned_max": 8.0,
+      "next_book": {
+        "asin": "B0G26MMNWK",
+        "title": "Divergence",
+        "sequence": 9.0,
+        "cover_url": "https://m.media-amazon.com/images/I/511+WNGJVzL._SL500_.jpg"
+      }
+    },
+    "Archemi Online Series": {
+      "owned_max": 6.0,
+      "next_book": null
+    },
+    "Five Kingdoms": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "Wings of Fire": {
+      "owned_max": 14.0,
+      "next_book": {
+        "asin": "B09K2VRZKM",
+        "title": "The Flames of Hope",
+        "sequence": 15.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51RikbXTUzL._SL500_.jpg"
+      }
+    },
+    "Wings of Fire: Legends": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1338605879",
+        "title": "Dragonslayer",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/5118uQEDh-L._SL500_.jpg"
+      }
+    },
+    "The Wakening": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Nicci Chronicles": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B077MVXZ29",
+        "title": "Shroud of Eternity",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51S7YVkH88L._SL500_.jpg"
+      }
+    },
+    "Shattered Realms ": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Greyhawk": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B00BR1UD2G",
+        "title": "Keep on the Borderlands",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51tGA23qnUL._SL500_.jpg"
+      }
+    },
+    "The Unwanteds Quests": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B079H4KQC8",
+        "title": "Dragon Bones Volume 2",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51bSVy1gw0L._SL500_.jpg"
+      }
+    },
+    "Dragon Emperor": {
+      "owned_max": 13.0,
+      "next_book": null
+    },
+    "Rivenworld": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Dragon Rider Chronicles": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B0D6TBPSCD",
+        "title": "Dragon Rider Chronicles 3",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51YvJLCiBzL._SL500_.jpg"
+      }
+    },
+    "Heritage of Power": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07FPSBTKX",
+        "title": "Unraveled",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/5162S2CuGZL._SL500_.jpg"
+      }
+    },
+    "King's Dark Tidings": {
+      "owned_max": 6.0,
+      "next_book": {
+        "asin": "B0FRNJ6BSJ",
+        "title": "Ritual of Ruin",
+        "sequence": 7.0,
+        "cover_url": "https://m.media-amazon.com/images/I/518Qi7RKyyL._SL500_.jpg"
+      }
+    },
+    "The Ballad of Sir Benfro": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B00S8QODJM",
+        "title": "The Rose Cord",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61r5+xqxDrL._SL500_.jpg"
+      }
+    },
+    "The Divine Dungeon": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "1977349684",
+        "title": "Dungeon Eternium",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61IYcWG+2bL._SL500_.jpg"
+      }
+    },
+    "The Wraith's Haunt: A LitRPG Series": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "The First Formic War": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "The Enderverse": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B002UUOTMI",
+        "title": "First Meetings",
+        "sequence": 4.5,
+        "cover_url": "https://m.media-amazon.com/images/I/512Ig3yewLL._SL500_.jpg"
+      }
+    },
+    "Void Wielder Trilogy": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Ether Collapse": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B083L6ZVQM",
+        "title": "Excise (A Post-Apocalyptic LitRPG)",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51ZCZSAnH2L._SL500_.jpg"
+      }
+    },
+    "Dungeon Robotics Series": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "170522282X",
+        "title": "Escalation",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51KL18pHCYL._SL500_.jpg"
+      }
+    },
+    "Legend of Drizzt": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B00BWRTI4E",
+        "title": "Streams of Silver",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51Y8DtGrl7L._SL500_.jpg"
+      }
+    },
+    "Fablehaven": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B00CXXELZM",
+        "title": "Fablehaven, Book 2",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61McIkzDd6L._SL500_.jpg"
+      }
+    },
+    "The Shroud of Prophecy": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "125075514X",
+        "title": "Destiny of the Dead",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/41IwDZnZwXL._SL500_.jpg"
+      }
+    },
+    "The Fatemarked Epic": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B079LXCFQ6",
+        "title": "Truthmarked",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51U+fFfmAqL._SL500_.jpg"
+      }
+    },
+    "Fourth Wing": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0C9V5SLQQ",
+        "title": "Iron Flame",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61ECOUEnoTL._SL500_.jpg"
+      }
+    },
+    "Galaxy's Edge": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Mithermages": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "God's Eye": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Going Wild Series": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1974936783",
+        "title": "Predator vs. Prey",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/511KLcsg9jL._SL500_.jpg"
+      }
+    },
+    "Red Rising": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B074NBTRGL",
+        "title": "Iron Gold",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51oKG4sAeqL._SL500_.jpg"
+      }
+    },
+    "Paragon Society Series": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "1515945480",
+        "title": "Cabal",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/617RWBl6NGL._SL500_.jpg"
+      }
+    },
+    "Shattered Sea": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B00SZABKC4",
+        "title": "Half the World",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51b8dd28UgL._SL500_.jpg"
+      }
+    },
+    "Hell Divers Series": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0CBCXNG63",
+        "title": "Hell Divers: The Lost Years",
+        "sequence": 1.5,
+        "cover_url": "https://m.media-amazon.com/images/I/51nirTFCr8L._SL500_.jpg"
+      }
+    },
+    "How to Train Your Dragon": {
+      "owned_max": 5.0,
+      "next_book": {
+        "asin": "B00GU0LYNQ",
+        "title": "A HERO'S GUIDE TO DEADLY DRAGONS",
+        "sequence": 6.0,
+        "cover_url": "https://m.media-amazon.com/images/I/611t5WsqZ0L._SL500_.jpg"
+      }
+    },
+    "Hunter": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "The Lorien Legacies": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B00E7T9HOU",
+        "title": "The Fall of Five",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61JQfsxdrwL._SL500_.jpg"
+      }
+    },
+    "The Lost": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Completionist Chronicles": {
+      "owned_max": 11.0,
+      "next_book": {
+        "asin": "B0FHK88KH1",
+        "title": "Untapped",
+        "sequence": 12.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51TEscQYMaL._SL500_.jpg"
+      }
+    },
+    "Darkest Minds": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07FPQV8H5",
+        "title": "The Darkest Legacy",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51q8gl0-8LL._SL500_.jpg"
+      }
+    },
+    "System Universe Series": {
+      "owned_max": 7.0,
+      "next_book": null
+    },
+    "Industrial Strength Magic": {
+      "owned_max": 2.0,
+      "next_book": null
+    },
+    "The Unwanteds": {
+      "owned_max": 7.0,
+      "next_book": null
+    },
+    "Nightlord Series": {
+      "owned_max": 5.0,
+      "next_book": {
+        "asin": "1774241722",
+        "title": "Mobius",
+        "sequence": 6.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51CRpzKyqIL._SL500_.jpg"
+      }
+    },
+    "Legend of the Arch Magus": {
+      "owned_max": 9.0,
+      "next_book": null
+    },
+    "Leven Thumps": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B002V8MJSK",
+        "title": "Leven Thumps and the Whispered Secret",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51B0XisjtCL._SL500_.jpg"
+      }
+    },
+    "New Era Online": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B08DFDQGFT",
+        "title": "Life Reset: Human Resource",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51PXNvyRvEL._SL500_.jpg"
+      }
+    },
+    "Seven Wonders": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B00JLOEA7K",
+        "title": "Seven Wonders Book 3: The Tomb of Shadows",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/5193AUItZTL._SL500_.jpg"
+      }
+    },
+    "Jeff the Game Master": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B09WST6L37",
+        "title": "Mastering Magic",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61LcwNabP0L._SL500_.jpg"
+      }
+    },
+    "Mastering Magic": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0CBT29WVW",
+        "title": "Mastering Magic 2",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/5137NNZM0zL._SL500_.jpg"
+      }
+    },
+    "Revenge of the Sorcerer King Series": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B09Z4B71MP",
+        "title": "Insurrection",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51uXix5U1IL._SL500_.jpg"
+      }
+    },
+    "Star Child - Places of Power": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B086VV5FPG",
+        "title": "Titan Song",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51N9j4k1ziL._SL500_.jpg"
+      }
+    },
+    "Nightblade (Kirk)": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Machineries of Empire": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B072JV8KMX",
+        "title": "Raven Stratagem",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61fYpS+fzeL._SL500_.jpg"
+      }
+    },
+    "The Rise and Fall": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B09NMMM8JV",
+        "title": "Farilane",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/512WwBcPTJL._SL500_.jpg"
+      }
+    },
+    "Arcane Ascension": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0DJ3GB9WZ",
+        "title": "When Wizards Follow Fools",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/511Bj7htEyL._SL500_.jpg"
+      }
+    },
+    "Overlord": {
+      "owned_max": 14.0,
+      "next_book": {
+        "asin": "B0DK9TPB4Z",
+        "title": "Overlord, Vol. 15",
+        "sequence": 15.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51I6DRZOBpL._SL500_.jpg"
+      }
+    },
+    "The Demon's Apprentice Series": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "1665022949",
+        "title": "Charm School",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51YLmcHSOMS._SL500_.jpg"
+      }
+    },
+    "The Paternus Trilogy": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Pathfinder": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Emissary of Light": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Broken Empire": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B008ROT976",
+        "title": "King of Thorns",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51tTNGKFN+L._SL500_.jpg"
+      }
+    },
+    "Necrotic Apocalypse": {
+      "owned_max": 5.0,
+      "next_book": {
+        "asin": "B0CYHPH9K7",
+        "title": "Revelations",
+        "sequence": 6.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51OSO7B2-cL._SL500_.jpg"
+      }
+    },
+    "Ready Player One": {
+      "owned_max": 2.0,
+      "next_book": null
+    },
+    "Savage Dominion": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B0BRYHGJZL",
+        "title": "Voidgod",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/517MyA7O0AL._SL500_.jpg"
+      }
+    },
+    "Night Angel": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "The Way of the Shaman": {
+      "owned_max": 6.0,
+      "next_book": {
+        "asin": "B07CWWTJJ1",
+        "title": "Clans War",
+        "sequence": 7.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61KkypkVmNL._SL500_.jpg"
+      }
+    },
+    "Solo Leveling Series": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B09GHJTKSJ",
+        "title": "Solo Leveling, Vol. 2",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51Ug7fjqaSL._SL500_.jpg"
+      }
+    },
+    "The Seeded Realms": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B08L5ZZGFB",
+        "title": "Fallen Ambitions",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51iSDLSwkHL._SL500_.jpg"
+      }
+    },
+    "Space Lore": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B087F4RTS1",
+        "title": "The Excalibur",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/512stmoKgPL._SL500_.jpg"
+      }
+    },
+    "Speedrunning the Multiverse Series": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B0CV4Q6YLJ",
+        "title": "Speedrunning the Multiverse 4",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51JH3L5QEvL._SL500_.jpg"
+      }
+    },
+    "Spellmonger": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "1774240602",
+        "title": "The Spellmonger's Honeymoon: A Spellmonger Novella",
+        "sequence": 2.5,
+        "cover_url": "https://m.media-amazon.com/images/I/510euWH4LEL._SL500_.jpg"
+      }
+    },
+    "Summoner": {
+      "owned_max": 16.0,
+      "next_book": null
+    },
+    "Please Don't Tell My Parents": {
+      "owned_max": 0,
+      "next_book": {
+        "asin": "B015HZV24U",
+        "title": "Please Don't Tell My Parents I'm a Supervillain",
+        "sequence": 1.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61Jmllis+RL._SL500_.jpg"
+      }
+    },
+    "Super Powereds": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B01G11ZFYC",
+        "title": "Corpies",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61ZHAA6jtKL._SL500_.jpg"
+      }
+    },
+    "Maximum Ride": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B002V5A3RM",
+        "title": "Max",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51BuNcLaI+L._SL500_.jpg"
+      }
+    },
+    "Percy Jackson and the Olympians": {
+      "owned_max": 5.0,
+      "next_book": {
+        "asin": "B002V1NINC",
+        "title": "Percy Jackson: The Demigod Files",
+        "sequence": 5.1,
+        "cover_url": "https://m.media-amazon.com/images/I/515dR82Yw+L._SL500_.jpg"
+      }
+    },
+    "The Menocht Loop": {
+      "owned_max": 6.0,
+      "next_book": null
+    },
+    "Heroes Of Olympus": {
+      "owned_max": 5.0,
+      "next_book": null
+    },
+    "Chronicles of Dragon": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Seven Realms": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Immortal Supers": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B07V5XBF46",
+        "title": "The Complicated Life of an Immortal",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51RsJqj8syL._SL500_.jpg"
+      }
+    },
+    "The Maze Runner": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B008MB2WLE",
+        "title": "The Kill Order (Maze Runner, Book 4; Origin)",
+        "sequence": 4.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51XeNUgZOfL._SL500_.jpg"
+      }
+    },
+    "The Demon Cycle": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B00BAXPU3I",
+        "title": "The Daylight War",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51iPLxzihqL._SL500_.jpg"
+      }
+    },
+    "The Destroyer": {
+      "owned_max": 4.0,
+      "next_book": null
+    },
+    "Magnus Chase and the Gods of Asgard": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B074CMRQ4C",
+        "title": "The Ship of the Dead",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61Mi-R1b1kL._SL500_.jpg"
+      }
+    },
+    "The Heroic Villain": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B08NQ5SZDQ",
+        "title": "The Heroic Villain 3",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61EuJNIi1UL._SL500_.jpg"
+      }
+    },
+    "Olympus Bound": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B01N80UKJR",
+        "title": "Winter of the Gods",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51PryrPmFjL._SL500_.jpg"
+      }
+    },
+    "The Ronin Saga": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B088VQ41BD",
+        "title": "Citadel of Fire",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51AAog-TSAL._SL500_.jpg"
+      }
+    },
+    "Saga of Recluce": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B00DJ7I698",
+        "title": "The Towers of the Sunset",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51AFiDUAfNL._SL500_.jpg"
+      }
+    },
+    "The Magitech Chronicles": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Kingkiller Chronicle": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B00MOXI512",
+        "title": "The Slow Regard of Silent Things",
+        "sequence": 2.5,
+        "cover_url": "https://m.media-amazon.com/images/I/51IMLdpQB6L._SL500_.jpg"
+      }
+    },
+    "The Perfect Run": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Prof. Croft": {
+      "owned_max": 0,
+      "next_book": null
+    },
+    "Kane Chronicles": {
+      "owned_max": 3.0,
+      "next_book": {
+        "asin": "B07B1S6DRX",
+        "title": "From the Kane Chronicles: Brooklyn House Magician's Manual (An Official Rick Riordan Companion Book)",
+        "sequence": 3.5,
+        "cover_url": "https://m.media-amazon.com/images/I/61oy3Tb9wBL._SL500_.jpg"
+      }
+    },
+    "The Cycle of Galand": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B01F65TBP8",
+        "title": "The Silver Thief",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/41NnN0JRpoL._SL500_.jpg"
+      }
+    },
+    "Safanarion Order": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Maze Runner": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B005O1YEFW",
+        "title": "The Death Cure",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/618SIvm2lyL._SL500_.jpg"
+      }
+    },
+    "The Evertide": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Second Formic War Series": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Viral Superhero Series": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "The Heir Chronicles": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B002V1NFRQ",
+        "title": "Wizard Heir",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51XzC06FZML._SL500_.jpg"
+      }
+    },
+    "Vainqueur the Dragon": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "B0B199RR4B",
+        "title": "Vainqueur the Dragon III: World Tour Edition",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51PU13oBeXL._SL500_.jpg"
+      }
+    },
+    "Star Wars": {
+      "owned_max": 30.0,
+      "next_book": {
+        "asin": "1984889966",
+        "title": "Thrawn: Treason",
+        "sequence": 31.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51vpnAivypL._SL500_.jpg"
+      }
+    },
+    "Star Wars: Thrawn": {
+      "owned_max": 2.0,
+      "next_book": {
+        "asin": "1984889966",
+        "title": "Thrawn: Treason",
+        "sequence": 3.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51vpnAivypL._SL500_.jpg"
+      }
+    },
+    "Underland": {
+      "owned_max": 2.0,
+      "next_book": null
+    },
+    "Unwind": {
+      "owned_max": 1.5,
+      "next_book": {
+        "asin": "B00CJJB19O",
+        "title": "Unwholly",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51tsrO9lHDL._SL500_.jpg"
+      }
+    },
+    "The Shadow Master": {
+      "owned_max": 4.0,
+      "next_book": {
+        "asin": "B0CKJ49JFZ",
+        "title": "Villains Return",
+        "sequence": 5.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61Q7EYBcvuL._SL500_.jpg"
+      }
+    },
+    "The War Chronicles": {
+      "owned_max": 3.0,
+      "next_book": null
+    },
+    "Defiance of the Fall": {
+      "owned_max": 8.0,
+      "next_book": {
+        "asin": "B0BXTC9MMP",
+        "title": "Defiance of the Fall 9",
+        "sequence": 9.0,
+        "cover_url": "https://m.media-amazon.com/images/I/61m7CMkMhGL._SL500_.jpg"
+      }
+    },
+    "The Levanthria Series": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0B91BKXP1",
+        "title": "A Sea of Sorrow and Scorn",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51xOpNgtntL._SL500_.jpg"
+      }
+    },
+    "Grimnir Chronicles": {
+      "owned_max": 1.0,
+      "next_book": null
+    },
+    "Heretical Fishing": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0CZPKBY63",
+        "title": "Heretical Fishing 2: A Cozy Guide to Annoying the Cults, Outsmarting the Fish, and Alienating Oneself",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51FLHBiEUjL._SL500_.jpg"
+      }
+    },
+    "Expeditionary Force": {
+      "owned_max": 7.0,
+      "next_book": {
+        "asin": "1772309141",
+        "title": "Homefront: An Expeditionary Force Audio Drama Special",
+        "sequence": 7.5,
+        "cover_url": "https://m.media-amazon.com/images/I/51JhGTQ-kOL._SL500_.jpg"
+      }
+    },
+    "Sun Eater": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1980083150",
+        "title": "The Lesser Devil",
+        "sequence": 1.5,
+        "cover_url": "https://m.media-amazon.com/images/I/51Z5RVKGOaL._SL500_.jpg"
+      }
+    },
+    "Beware of Chicken": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "B0BRBRVZ59",
+        "title": "Beware of Chicken 2: A Xianxia Cultivation Novel",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51rDDL-fYjL._SL500_.jpg"
+      }
+    },
+    "The Wandering Inn": {
+      "owned_max": 1.0,
+      "next_book": {
+        "asin": "1774241544",
+        "title": "Fae and Fare",
+        "sequence": 2.0,
+        "cover_url": "https://m.media-amazon.com/images/I/51xoGrB4cHL._SL500_.jpg"
+      }
+    }
+  },
+  "new_releases": []
+}

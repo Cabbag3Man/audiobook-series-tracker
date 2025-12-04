@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+# IDE stuff
+.vscode/
+.idea/
+# Dev only
+examples/
+docs/
+# Config / Project specific
+audible_auth.json
+config.py

@@ -214,7 +214,8 @@ def search_series_books(series_name: str, sample_asin: str) -> list[dict]:
                             "asin": item.get("asin"),
                             "title": item.get("title"),
                             "sequence": s.get("sequence", 0),
-                            "cover_url": cover_url
+                            "cover_url": cover_url,
+                            "issue_date": item.get("issue_date", "")
                         })
                         break
 
@@ -243,7 +244,7 @@ if __name__ == "__main__":
             print(f"\nSearching for books in '{series[0]['title']}'...")
             books = search_series_books(series[0]["title"], test_asin)
             for book in books:
-                print(f"  #{book['sequence']}: {book['title']} | Cover: {'YES' if book.get('cover_url') else 'NO'}")
+                print(f"  #{book['sequence']}: {book['title']} | Cover: {'YES' if book.get('cover_url') else 'NO'} | Issue: {book.get('issue_date', 'N/A')}")
 
 
 

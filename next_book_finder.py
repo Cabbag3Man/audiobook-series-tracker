@@ -91,7 +91,8 @@ def process_all_series(force_update: bool = False) -> tuple[dict, list]:
                     "asin": next_book["asin"],
                     "title": next_book["title"],
                     "sequence": next_book["sequence"],
-                    "cover_url": next_book.get("cover_url", "")
+                    "cover_url": next_book.get("cover_url", ""),
+                    "issue_date": next_book.get("issue_date", "")
                 })
         else:
             print(f"    -> No next book found (series complete?)")

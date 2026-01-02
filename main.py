@@ -9,8 +9,8 @@ to identify the next book in each series you're reading.
 import argparse
 import sys
 from next_book_finder import process_all_series
-from storage import print_next_books, save_cache, load_cache
-from notifications import notify_new_releases
+from storage import print_next_books, save_cache, load_cache, get_releasing_today
+from notifications import notify_new_releases, notify_releasing_today
 
 
 def main():
@@ -66,6 +66,14 @@ Examples:
         # Send notifications for new releases
         if new_releases:
             notify_new_releases(new_releases)
+
+        # Check for books releasing today and notify
+        releasing_today = get_releasing_today()
+        if releasing_today:
+            print(f"\nBooks releasing today: {len(releasing_today)}")
+            for book in releasing_today:
+                print(f"  {book['series_name']}: #{book['sequence']} - {book['title']}")
+            notify_releasing_today(releasing_today)
 
         # Save to file unless console-only mode
         if not args.console_only:

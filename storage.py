@@ -119,6 +119,32 @@ def save_new_releases(releases: list) -> None:
     save_cache(cache)
 
 
+def get_releasing_today() -> list:
+    """
+    Check all cached series for books releasing today.
+
+    Returns:
+        List of dicts with series_name and next_book info for books releasing today
+    """
+    today = datetime.now().strftime("%Y-%m-%d")
+    cache = load_cache()
+    releasing_today = []
+
+    for series_name, data in cache.get("series", {}).items():
+        next_book = data.get("next_book")
+        if next_book and next_book.get("issue_date") == today:
+            releasing_today.append({
+                "series_name": series_name,
+                "asin": next_book.get("asin", ""),
+                "title": next_book.get("title", ""),
+                "sequence": next_book.get("sequence", 0),
+                "cover_url": next_book.get("cover_url", ""),
+                "issue_date": next_book.get("issue_date", "")
+            })
+
+    return releasing_today
+
+
 def print_new_releases(releases: list) -> None:
     """Print new releases prominently."""
     if not releases:
@@ -164,6 +190,8 @@ def print_next_books(data: Optional[dict] = None, new_releases: Optional[list] =
         if next_book:
             print(f"  Next book: #{next_book.get('sequence')} - {next_book.get('title')}")
             print(f"  ASIN: {next_book.get('asin')}")
+            if next_book.get("issue_date"):
+                print(f"  Release date: {next_book.get('issue_date')}")
             if next_book.get("cover_url"):
                 print(f"  Cover: {next_book.get('cover_url')}")
         else:

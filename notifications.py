@@ -62,6 +62,77 @@ def send_discord_notification(new_releases: list) -> bool:
     return True
 
 
+def send_releasing_today_notification(releases: list) -> bool:
+    """
+    Send a Discord webhook notification for books releasing today.
+
+    Args:
+        releases: List of release dicts with series_name, title, sequence, asin, issue_date
+
+    Returns:
+        True if notification sent successfully
+    """
+    if not DISCORD_WEBHOOK_URL:
+        return False
+
+    if not releases:
+        return False
+
+    # Build the embed message
+    embeds = []
+    for release in releases:
+        embed = {
+            "title": "Book Releasing Today!",
+            "description": f"**{release['series_name']}** Book #{release['sequence']}: {release['title']}\n\n[View on Audible](https://www.audible.com/pd/{release['asin']})",
+            "color": 3066993,  # Green color
+            "url": f"https://www.audible.com/pd/{release['asin']}"
+        }
+
+        # Add cover art if available
+        cover_url = release.get("cover_url", "")
+        if cover_url:
+            embed["image"] = {"url": cover_url}
+
+        embeds.append(embed)
+
+    # Discord allows max 10 embeds per message
+    for i in range(0, len(embeds), 10):
+        batch = embeds[i:i+10]
+        payload = {
+            "username": "NewBooks",
+            "embeds": batch
+        }
+
+        try:
+            response = requests.post(
+                DISCORD_WEBHOOK_URL,
+                json=payload,
+                timeout=10
+            )
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"Error sending Discord notification: {e}")
+            return False
+
+    print(f"Discord notification sent for {len(releases)} book(s) releasing today")
+    return True
+
+
+def notify_releasing_today(releases: list) -> None:
+    """
+    Send notifications for books releasing today via all configured channels.
+
+    Args:
+        releases: List of release dicts
+    """
+    if not releases:
+        return
+
+    # Discord
+    if DISCORD_WEBHOOK_URL:
+        send_releasing_today_notification(releases)
+
+
 def notify_new_releases(new_releases: list) -> None:
     """
     Send notifications for new releases via all configured channels.

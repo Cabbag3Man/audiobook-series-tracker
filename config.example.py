@@ -14,7 +14,7 @@ Never commit config.py to version control - it contains sensitive API keys!
 # Base URL of your AudioBookShelf server
 # Example: "http://192.168.1.100:13378" or "https://abs.yourdomain.com"
 # Find this in your browser's address bar when accessing AudioBookShelf
-ABS_BASE_URL = ""
+ABS_BASE_URL = "http://"
 
 # Library ID - the UUID of the library containing your audiobooks
 # How to find it:

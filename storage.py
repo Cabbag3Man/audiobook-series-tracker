@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 from typing import Optional
 from config import OUTPUT_FILE
+from logger import log, log_error
 
 
 # Get the directory where this script is located
@@ -22,6 +23,7 @@ def load_cache() -> dict:
             return json.load(f)
     except (json.JSONDecodeError, IOError) as e:
         print(f"Error loading cache: {e}")
+        log_error("storage", f"Error loading cache: {e}")
         return {"last_updated": None, "series": {}}
 
 
@@ -31,6 +33,7 @@ def save_cache(data: dict) -> None:
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    log("storage", "JSON cache updated")
 
 
 def get_cached_series(series_name: str) -> Optional[dict]:
@@ -141,6 +144,7 @@ def get_releasing_today() -> list:
                 "cover_url": next_book.get("cover_url", ""),
                 "issue_date": next_book.get("issue_date", "")
             })
+            log("storage", f"Book releasing today: {series_name} - {next_book.get('title', '')}")
 
     return releasing_today
 
@@ -188,10 +192,9 @@ def print_next_books(data: Optional[dict] = None, new_releases: Optional[list] =
         print(f"  Currently own up to: #{info.get('owned_max', '?')}")
 
         if next_book:
-            print(f"  Next book: #{next_book.get('sequence')} - {next_book.get('title')}")
+            issue_info = f" (Release: {next_book.get('issue_date')})" if next_book.get('issue_date') else ""
+            print(f"  Next book: #{next_book.get('sequence')} - {next_book.get('title')}{issue_info}")
             print(f"  ASIN: {next_book.get('asin')}")
-            if next_book.get("issue_date"):
-                print(f"  Release date: {next_book.get('issue_date')}")
             if next_book.get("cover_url"):
                 print(f"  Cover: {next_book.get('cover_url')}")
         else:

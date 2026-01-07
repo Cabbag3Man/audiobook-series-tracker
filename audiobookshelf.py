@@ -4,6 +4,7 @@ import re
 import requests
 from typing import Optional
 from config import ABS_BASE_URL, ABS_LIBRARY_ID, ABS_API_KEY
+from logger import log, log_error
 
 
 def get_headers() -> dict:
@@ -25,9 +26,13 @@ def fetch_library_series(limit: int = 100, page: int = 0) -> dict:
     url = f"{ABS_BASE_URL}/api/libraries/{ABS_LIBRARY_ID}/series"
     params = {"limit": limit, "page": page}
 
-    response = requests.get(url, headers=get_headers(), params=params)
-    response.raise_for_status()
-    return response.json()
+    try:
+        response = requests.get(url, headers=get_headers(), params=params)
+        response.raise_for_status()
+        return response.json()
+    except requests.RequestException as e:
+        log_error("audiobookshelf", f"API request failed: {e}")
+        raise
 
 
 def fetch_all_series() -> list:
@@ -35,6 +40,8 @@ def fetch_all_series() -> list:
     all_series = []
     page = 0
     limit = 100
+
+    log("audiobookshelf", "Fetching series from AudioBookShelf...")
 
     while True:
         data = fetch_library_series(limit=limit, page=page)
@@ -47,6 +54,7 @@ def fetch_all_series() -> list:
             break
         page += 1
 
+    log("audiobookshelf", f"Found {len(all_series)} series in library")
     return all_series
 
 

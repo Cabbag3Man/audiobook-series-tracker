@@ -5,6 +5,7 @@ from audiobookshelf import fetch_all_series, build_series_dict_from_series
 from audible_api import search_series_books
 from storage import should_update_series, update_series, get_all_next_books, detect_new_release
 from config import EXCLUDED_SERIES
+from logger import log
 
 
 def find_next_book(series_name: str, owned_max: float, sample_asin: str) -> Optional[dict]:
@@ -49,11 +50,14 @@ def process_all_series(force_update: bool = False) -> tuple[dict, list]:
         Tuple of (all_series_dict, new_releases_list)
     """
     print("Fetching series from AudioBookShelf...")
+    log("finder", "Fetching series from AudioBookShelf...")
     series_list = fetch_all_series()
     print(f"Found {len(series_list)} series in library")
+    log("finder", f"Found {len(series_list)} series in library")
 
     series_dict = build_series_dict_from_series(series_list)
     print(f"Processed {len(series_dict)} series with valid ASINs")
+    log("finder", f"Processed {len(series_dict)} series with valid ASINs")
 
     updated_count = 0
     skipped_count = 0
@@ -63,6 +67,7 @@ def process_all_series(force_update: bool = False) -> tuple[dict, list]:
         # Skip excluded series
         if series_name in EXCLUDED_SERIES:
             print(f"  Skipping excluded series: {series_name}")
+            log("finder", f"Skipping excluded series: {series_name}")
             skipped_count += 1
             continue
 
@@ -72,20 +77,25 @@ def process_all_series(force_update: bool = False) -> tuple[dict, list]:
         # Check if we need to update this series
         if not force_update and not should_update_series(series_name, owned_max):
             print(f"  Skipping (cached): {series_name}")
+            log("finder", f"Skipping (cached): {series_name}")
             skipped_count += 1
             continue
 
         print(f"  Processing: {series_name} (own up to #{owned_max})")
+        log("finder", f"Processing: {series_name} (own up to #{owned_max})")
 
         # Find the next book
         next_book = find_next_book(series_name, owned_max, sample_asin)
 
         if next_book:
-            print(f"    -> Next: #{next_book['sequence']} - {next_book['title']}")
+            issue_info = f" (Release: {next_book.get('issue_date')})" if next_book.get('issue_date') else ""
+            print(f"    -> Next: #{next_book['sequence']} - {next_book['title']}{issue_info}")
+            log("finder", f"Next book found: #{next_book['sequence']} - {next_book['title']}{issue_info}")
 
             # Check if this is a new release (was null, now has a book)
             if detect_new_release(series_name, next_book):
                 print(f"    ** NEW RELEASE! **")
+                log("finder", f"NEW RELEASE DETECTED: {series_name} - {next_book['title']}")
                 new_releases.append({
                     "series_name": series_name,
                     "asin": next_book["asin"],
@@ -96,15 +106,18 @@ def process_all_series(force_update: bool = False) -> tuple[dict, list]:
                 })
         else:
             print(f"    -> No next book found (series complete?)")
+            log("finder", f"No next book found for: {series_name}")
 
         # Update cache
         update_series(series_name, owned_max, next_book)
         updated_count += 1
 
     print(f"\nUpdated {updated_count} series, skipped {skipped_count}")
+    log("finder", f"Updated {updated_count} series, skipped {skipped_count}")
 
     if new_releases:
         print(f"New releases detected: {len(new_releases)}")
+        log("finder", f"New releases detected: {len(new_releases)}")
 
     return get_all_next_books(), new_releases
 
@@ -128,4 +141,5 @@ if __name__ == "__main__":
         next_book = data.get("next_book")
         if next_book:
             print(f"\n{name}")
-            print(f"  Next: #{next_book['sequence']} - {next_book['title']}")
+            issue_info = f" (Release: {next_book.get('issue_date')})" if next_book.get('issue_date') else ""
+            print(f"  Next: #{next_book['sequence']} - {next_book['title']}{issue_info}")

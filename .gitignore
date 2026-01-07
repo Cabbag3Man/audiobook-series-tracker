@@ -8,6 +8,9 @@ __pycache__/
 # Dev only
 examples/
 docs/
+.venv/
 # Config / Project specific
 audible_auth.json
 config.py
+# Logs (keep folder, ignore log files)
+logs/*.log

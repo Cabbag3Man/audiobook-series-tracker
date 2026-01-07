@@ -1,8 +1,8 @@
 """Notification module for sending alerts about new releases."""
 
 import requests
-from typing import Optional
 from config import DISCORD_WEBHOOK_URL
+from logger import log, log_error
 
 
 def send_discord_notification(new_releases: list) -> bool:
@@ -56,9 +56,11 @@ def send_discord_notification(new_releases: list) -> bool:
             response.raise_for_status()
         except requests.RequestException as e:
             print(f"Error sending Discord notification: {e}")
+            log_error("notifications", f"Failed to send Discord notification: {e}")
             return False
 
     print(f"Discord notification sent for {len(new_releases)} new release(s)")
+    log("notifications", f"Discord notification sent: {len(new_releases)} new release(s)")
     return True
 
 
@@ -112,9 +114,11 @@ def send_releasing_today_notification(releases: list) -> bool:
             response.raise_for_status()
         except requests.RequestException as e:
             print(f"Error sending Discord notification: {e}")
+            log_error("notifications", f"Failed to send releasing today notification: {e}")
             return False
 
     print(f"Discord notification sent for {len(releases)} book(s) releasing today")
+    log("notifications", f"Discord notification sent: {len(releases)} book(s) releasing today")
     return True
 
 

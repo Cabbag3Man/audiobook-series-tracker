@@ -11,6 +11,7 @@ import sys
 from next_book_finder import process_all_series
 from storage import print_next_books, save_cache, load_cache, get_releasing_today
 from notifications import notify_new_releases, notify_releasing_today
+from logger import log, log_header, log_footer, close_log, log_error
 
 
 def main():
@@ -25,19 +26,19 @@ Examples:
     python main.py --show           # Just show cached results
         """
     )
-
+    # Only output to console, don't save to JSON file
     parser.add_argument(
         "--console-only",
         action="store_true",
         help="Only output to console, don't save to JSON file"
     )
-
+    # Force update all series, ignoring cache
     parser.add_argument(
         "--force",
         action="store_true",
         help="Force update all series, ignoring cache"
     )
-
+    # Just show cached results without fetching new data
     parser.add_argument(
         "--show",
         action="store_true",
@@ -47,9 +48,17 @@ Examples:
     args = parser.parse_args()
 
     try:
+        # Initialize logging
+        log_header()
+        log("main", "Script started")
+
         if args.show:
             # Just display cached results
+            log("main", "Showing cached results (--show flag)")
             print_next_books()
+            log("main", "Script completed")
+            log_footer()
+            close_log()
             return 0
 
         # Process all series
@@ -83,15 +92,25 @@ Examples:
             save_cache(cache)
             print(f"\nResults saved to next_books.json")
 
+        # Log summary
+        log("main", f"Script completed - {len(results)} series, {len(new_releases)} new releases, {len(releasing_today)} releasing today")
+        log_footer()
+        close_log()
         return 0
 
     except KeyboardInterrupt:
         print("\nInterrupted by user")
+        log("main", "Interrupted by user")
+        log_footer()
+        close_log()
         return 1
     except Exception as e:
         print(f"\nError: {e}")
         import traceback
         traceback.print_exc()
+        log_error("main", str(e))
+        log_footer()
+        close_log()
         return 1
 
 
